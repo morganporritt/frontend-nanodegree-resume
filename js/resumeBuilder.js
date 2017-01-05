@@ -10,7 +10,7 @@ var bio = {
     },
     "welcomeMessage": "There is no elevator to success — you have to take the stairs.",
     "skills": ["PHP", "Javascript", "HTML", "CSS"],
-    "biopic": "/images/fishing.jpg",
+    "biopic": "images/fishing.jpg",
 };
 
 var education = {
@@ -70,21 +70,21 @@ var projects = {
         "dates": "2015",
         "description": "I developed an application using the MEAN web stack for tracking products. This was the final project for an independent study course that I did through Utah State University. During the course I self taught myslef how to develope web applications using the MEAN web stack.",
         "images": [
-            "/images/productTracker.png"
+            "images/productTracker.png"
         ]
     }, {
         "title": "Beat the Market",
         "dates": "2015",
         "description": "Wouldn’t it be wonderful if there was a program that could predict the future of the market? While knowing the future is impossible using history to make precise predictions based on the past is a reality.",
         "images": [
-            "/images/beatTheMarket.jpg"
+            "images/beatTheMarket.jpg"
         ]
     }, {
         "title": "Geology Quiz",
         "dates": "2014",
         "description": "Created a responsive web app for the USU geology department. The app is a quiz of the geologic time scale of the earth. Its is intended to help students in learning all of the different time periods on the geologic time scale.",
         "images": [
-            "/images/geology.png"
+            "images/geology.png"
         ]
     }],
 };
