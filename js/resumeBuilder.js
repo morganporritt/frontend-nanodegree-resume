@@ -99,6 +99,12 @@ bio.display = function() {
     $("#topContacts").append(HTMLgithub.replace("%data%", bio.contacts.github));
     //$("#topContacts").append(HTMLtwitter.replace("%data%", bio.contacts.twitter));
     $("#topContacts").append(HTMLlocation.replace("%data%", bio.contacts.location));
+    
+    $("#footerContacts").append(HTMLemail.replace("%data%", bio.contacts.email));
+    $("#footerContacts").append(HTMLmobile.replace("%data%", bio.contacts.mobile));
+    $("#footerContacts").append(HTMLgithub.replace("%data%", bio.contacts.github));
+    //$("#topContacts").append(HTMLtwitter.replace("%data%", bio.contacts.twitter));
+    $("#footerContacts").append(HTMLlocation.replace("%data%", bio.contacts.location));
 
 
     $("#header").append(HTMLbioPic.replace("%data%", bio.biopic));
